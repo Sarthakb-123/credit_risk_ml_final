@@ -1,0 +1,93 @@
+# ===========================================
+# 📦 GENERAL SETTINGS
+# ===========================================
+
+# Python cache & virtual environment
+__pycache__/
+*.py[cod]
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.egg-info/
+venv/
+env/
+.venv/
+
+# IDE / Editor settings
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# ===========================================
+# ⚙️ PROJECT SPECIFIC
+# ===========================================
+
+# Model files (too large for GitHub)
+models/*.pkl
+models/*.joblib
+models/*.sav
+
+# Raw & cleaned data files
+data_raw/*.csv
+data_clean/*.csv
+data_clean/*.xlsx
+data_clean/*.parquet
+
+# Prediction outputs
+!data_clean/prediction_results.csv  # <-- keep only this
+outputs/
+exports/
+
+# ===========================================
+# ⚡ FASTAPI / API FILES
+# ===========================================
+
+# SQLite or other DB cache
+*.db
+*.sqlite3
+*.log
+
+# Local test data
+test_*.json
+temp/
+cache/
+
+# ===========================================
+# 📊 POWER BI / NOTEBOOK FILES
+# ===========================================
+
+*.pbix
+*.ipynb_checkpoints/
+*.ipynb
+
+# ===========================================
+# 🧠 MODEL TRAINING / EXPLANATION FILES
+# ===========================================
+
+# SHAP or XGBoost explanation images
+docs/plots/*.html
+docs/plots/*.png
+docs/plots/*.svg
+
+# ===========================================
+# 🚀 MISC
+# ===========================================
+
+# Build / temporary directories
+tmp/
+build/
+dist/
+
+# Environment files
+.env
+.env.local
+.env.production
+
+# GitHub LFS placeholder (optional)
+*.lfs
