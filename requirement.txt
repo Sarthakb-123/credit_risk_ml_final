@@ -1,0 +1,19 @@
+# Core ML stack
+pandas
+numpy
+scikit-learn
+xgboost
+lightgbm
+joblib
+
+# Visualization / Explainability
+matplotlib
+seaborn
+shap
+
+# API Framework
+fastapi
+uvicorn[standard]
+
+# Environment management
+python-dotenv
